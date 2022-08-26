@@ -12,6 +12,8 @@ Three queries had to be answered:
 2. > Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
 3. > Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
 
+For each of these queries, the data modeling is explained in the Python notebook.
+
 ## Running The Project 
 
 To run the project, a `docker-compose.yaml` file is given to start up a Cassandra database locally.
